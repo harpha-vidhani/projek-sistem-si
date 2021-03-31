@@ -1,0 +1,15 @@
+/* Pure CSS Ribbon */
+.txtrbn{position:relative;z-index:1;padding:1em 2em}
+.ribbontext{font-size:120%!important;text-transform:uppercase;width:60%;position:relative;background:#1e88e5;color:#fff;text-align:center;padding:1em 2em;margin:2em auto 3em}
+.ribbontext:before,.ribbontext:after{content:"";position:absolute;display:block;bottom:-1em;border:1.5em solid #0b74d0;z-index:-1}
+.ribbontext:before{left:-2em;border-right-width:1.5em;border-left-color:transparent}
+.ribbontext:after{right:-2em;border-left-width:1.5em;border-right-color:transparent}
+.ribbontext .wordrbn:before,.ribbontext .wordrbn:after{content:"";position:absolute;display:block;border-style:solid;border-color:#0f63ad transparent transparent transparent;bottom:-1em}
+.ribbontext .wordrbn:before{left:0;border-width:1em 0 0 1em}
+.ribbontext .wordrbn:after{right:0;border-width:1em 1em 0 0}
+
+<div class="txtrbn">
+<h2 class="ribbontext">
+<marquee class="wordrbn">SELAMAT DATANG DAN TERIMAKASIH ATAS KUNJUNGANNYA, JANGAN SUNGKAN UNTUK DATANG KEMBALI</marquee>
+</h2>
+</div>
